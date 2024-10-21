@@ -8,6 +8,7 @@ Welcome to the little funny tool! This tool is designed to streamline your acade
 
 - 📄 Upload and analyze academic papers
 - 🧠 AI-powered paper review generation
+- 📝 Language polishing
 - 🌈 Multiple language support
 - 🎨 Theme switching for a personalized experience
 - ⚙️ Customizable API settings
@@ -37,21 +38,24 @@ I've carefully selected these technologies to create this tool:
 ## 🚀 Getting Started
 
 1. Clone the repository:
+
    ```
    git clone https://github.com/nohairblingbling/paper-review-assistant.git
    ```
 
 2. Install dependencies:
+
    ```
    npm install
    ```
 
-4. Start the development server:
+3. Start the development server:
+
    ```
    npm run dev
    ```
 
-5. Open [http://localhost:3000](http://localhost:3000) to see the app in action!
+4. Open [http://localhost:3000](http://localhost:3000) to see the app in action!
 
 ## 🎬 How to Use
 

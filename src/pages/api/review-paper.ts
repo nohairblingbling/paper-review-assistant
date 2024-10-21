@@ -62,6 +62,9 @@ export default async function handler(
 6. Strictness Level: ${strictnessLevel}
 7. Additional Requirements: ${additionalRequirements}
 
+Paper Content:
+${pdfText}
+
 Please structure your review as follows:
 
 # Overall Evaluation: Briefly assess the paper's overall quality and contribution.

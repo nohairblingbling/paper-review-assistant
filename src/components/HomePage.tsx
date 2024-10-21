@@ -31,17 +31,18 @@ export default function HomePage({ setCurrentPage }: HomePageProps) {
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.2 }}
           >
-            This is a user-friendly paper review assistant based on Your API.
-            Quickly and accurately review your academic papers!{" "}
+            This is a user-friendly paper review and language polish assistant based on Your API.
+            Quickly and accurately review your academic papers or refine your writing style!{" "}
             <FaMagic className="inline-block ml-2" />
           </motion.p>
           <motion.div
             initial={{ scale: 0 }}
             animate={{ scale: 1 }}
             transition={{ duration: 0.5, delay: 0.4 }}
+            className="flex flex-col sm:flex-row justify-center items-center gap-4"
           >
             <motion.button
-              className="btn btn-primary btn-lg text-xl px-8 py-3"
+              className="btn btn-primary btn-lg text-xl px-8 py-3 w-full sm:w-auto"
               whileHover={{
                 scale: 1.05,
                 boxShadow: "0px 0px 8px rgb(255,255,255)",
@@ -50,6 +51,17 @@ export default function HomePage({ setCurrentPage }: HomePageProps) {
               onClick={() => setCurrentPage("review")}
             >
               Start Review <FaRocket className="inline-block ml-2" />
+            </motion.button>
+            <motion.button
+              className="btn btn-secondary btn-lg text-xl px-8 py-3 w-full sm:w-auto"
+              whileHover={{
+                scale: 1.05,
+                boxShadow: "0px 0px 8px rgb(255,255,255)",
+              }}
+              whileTap={{ scale: 0.95 }}
+              onClick={() => setCurrentPage("polish")}
+            >
+              Language Polish <FaMagic className="inline-block ml-2" />
             </motion.button>
           </motion.div>
         </div>
