@@ -2,7 +2,7 @@
 
 Welcome to the little funny tool! This tool is designed to streamline your academic paper review process using AI-powered analysis. Let's make paper reviews a bit less tedious and a bit more fun! 🤓✨
 
-![Home Page and Theme Switching](https://cdn.jsdelivr.net/gh/filifili233/blogimg@master/uPic/1.gif)
+![Home Page and Theme Switching](https://cdn.jsdelivr.net/gh/filifili233/blogimg@master/uPic/Home%20Page%20and%20Theme%20Switching.gif)
 
 ## 🌟 Features
 
@@ -59,15 +59,18 @@ I've carefully selected these technologies to create this tool:
 
 ## 🎬 How to Use
 
-1. Upload your paper (PDF format)
-2. Set your review parameters
-3. Click "Review" and let the AI work
+1. Customize API settings
 
-![Review Process](https://cdn.jsdelivr.net/gh/filifili233/blogimg@master/uPic/2.gif)
+2. Upload your paper (PDF format)
 
-4. Customize API settings if needed
+3. Set your review parameters
 
-![API Settings](https://cdn.jsdelivr.net/gh/filifili233/blogimg@master/uPic/3.png)
+4. Click "Review" and let the AI work
+   ![Review Process](https://cdn.jsdelivr.net/gh/filifili233/blogimg@master/uPic/Review%20Process.gif)
+
+5. Polish language if needs
+
+   ![Polish languag](https://cdn.jsdelivr.net/gh/filifili233/blogimg@master/uPic/Polish%20languag.gif)
 
 ## 🙏 Acknowledgements
 
